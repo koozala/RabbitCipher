@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crypto.Rabbit", "Crypto.Rabbit\Crypto.Rabbit.csproj", "{AC40A167-DC5E-4641-BD1B-250A22DD7B9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crypto.Rabbit.Test", "Crypto.Rabbit.Test\Crypto.Rabbit.Test.csproj", "{45938432-54F3-4BE4-BDE6-B2F37A6E10FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{278D0247-BEA3-4B8D-B505-6C41232D48C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptFile", "EncryptFile\EncryptFile.csproj", "{BB0E8AF6-E45B-47F7-BB34-F44EED544EE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptString", "EncryptString\EncryptString.csproj", "{8DFB4CF0-F7EA-4066-8BAA-2270C127A31D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAA87914-55B9-4578-B819-1E62755B538B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC40A167-DC5E-4641-BD1B-250A22DD7B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC40A167-DC5E-4641-BD1B-250A22DD7B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC40A167-DC5E-4641-BD1B-250A22DD7B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC40A167-DC5E-4641-BD1B-250A22DD7B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45938432-54F3-4BE4-BDE6-B2F37A6E10FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45938432-54F3-4BE4-BDE6-B2F37A6E10FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45938432-54F3-4BE4-BDE6-B2F37A6E10FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45938432-54F3-4BE4-BDE6-B2F37A6E10FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0E8AF6-E45B-47F7-BB34-F44EED544EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0E8AF6-E45B-47F7-BB34-F44EED544EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0E8AF6-E45B-47F7-BB34-F44EED544EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0E8AF6-E45B-47F7-BB34-F44EED544EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFB4CF0-F7EA-4066-8BAA-2270C127A31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFB4CF0-F7EA-4066-8BAA-2270C127A31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFB4CF0-F7EA-4066-8BAA-2270C127A31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFB4CF0-F7EA-4066-8BAA-2270C127A31D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB0E8AF6-E45B-47F7-BB34-F44EED544EE2} = {278D0247-BEA3-4B8D-B505-6C41232D48C7}
+		{8DFB4CF0-F7EA-4066-8BAA-2270C127A31D} = {278D0247-BEA3-4B8D-B505-6C41232D48C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC73FC2-D921-4BC5-A4F9-4FFBC658D86F}
+	EndGlobalSection
+EndGlobal
