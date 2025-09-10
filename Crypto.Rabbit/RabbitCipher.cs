@@ -1,10 +1,17 @@
-﻿using System;
-using System.Runtime.CompilerServices;
-
+﻿#region copyright
 /**
+ * 
+ * This software is licensed under the MIT License (SPDX: MIT). See LICENSE file for details. 
+ * Copyright (c) 2020 koozala
+ * 
+ * This is the library implementation of the Rabbit stream cipher. For details see: 
  * https://tools.ietf.org/html/rfc4503 
  * 
  **/
+#endregion
+
+using System;
+using System.Runtime.CompilerServices;
 
 namespace Crypto.Rabbit
 {
