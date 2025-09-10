@@ -43,15 +43,15 @@ namespace Crypto.Rabbit
             UInt64 val = 0;
             for (int j = 0; j < b.Length; j++)
             {
-                val = val << 8 | b[j];
+                val = (val << 8) | b[j];
             }
             return val;
         }
-
+        
         public static RabbitCipher Create(byte[] key, byte[] IV)
         {
             if (key.Length != 16)
-                throw new ArgumentException("Keylength must be 16 bytes", "key");
+                throw new ArgumentException("Keylngth must be 16 bytes", "key");
             if (IV.Length != 8)
                 throw new ArgumentException("IV length must be 8 bytes", "IV");
 
@@ -126,6 +126,7 @@ namespace Crypto.Rabbit
                     Round();
                 }
             }
+
         }
 
         public void Round()
